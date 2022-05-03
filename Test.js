@@ -45,4 +45,23 @@ function invertir(text){
     console.log(invertido);
 }
 
-multiplicar(4,-3);
+function find_total(Array){
+        suma=0;
+    for(i=0; i< Array.length; i++ ){
+        if(Array[i] == 8 ){
+            console.log("el numero es 8");
+            suma=suma+5;
+        }else if(Array[i]%2==0){
+            console.log("el numero es par");
+            suma=suma+1;
+        }
+        else{
+            console.log("el numero es impar");  
+            suma=suma+3;
+        }
+    }
+    console.log(suma);
+}
+
+my_numbers=[1,8,3,4,5]
+find_total(my_numbers)
